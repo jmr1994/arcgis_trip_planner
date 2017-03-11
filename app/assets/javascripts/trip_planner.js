@@ -16,20 +16,6 @@ $(document).ready(function(){
             zoom: 15
         });
 
-        // $.ajax({
-        //     beforeSend: function(req) {
-        //         req.setRequestHeader("Accept", "application/json");
-        //     },
-        //     type: "GET",
-        //     url: "http://transport.tamu.edu:80/BusRoutesFeed/api/Routes",
-        //     //url: "http://api.open-notify.org/astros.json",
-        //     dataType: 'jsonp',
-        //     success: function(data){
-        //         console.log(data);
-        //         alert("it works");
-        //     }
-        // });
-
 
           var mydata = (function () {
             var json = null;
